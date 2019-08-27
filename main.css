@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap');
+body{
+background-color:#DFE0E2;
+}
+p{
+  display:inline-block;
+}
+#board,#challenge,#results{
+  text-align:center;
+}
+p{
+  font-size:4rem;
+  font-family:'Lexend Exa';
+  margin:1.5rem;
+}
+#totalCo{
+  display:block;
+}
+#opt1,#opt2{
+width:13%;
+padding:1.9rem 0;
+  margin:2rem 2rem;
+  border-radius:3%;
+  font-size:4rem;
+}
+button{
+border:.5px solid black;
+border-radius:3%;
+}
+#opt1:hover,#opt2:hover{  
+ background-color:black;
+  color:white;
+}
+#easy,#mid,#hard{
+  padding:3rem;
+  margin:.5rem;
+  font-size:1rem;
+  font-family:'Lexend Exa';
+}
+#easy:hover,#mid:hover,#hard:hover{
+  background-color:black;
+  color:white;
+}
